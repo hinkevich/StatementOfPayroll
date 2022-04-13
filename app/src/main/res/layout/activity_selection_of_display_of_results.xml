@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackgroundAll"
+    tools:context=".SelectionOfDisplayOfResultsActivity">
+
+    <TextView
+        android:id="@+id/result_selection_text_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Выберите год">
+
+    </TextView>
+
+    <Spinner
+        android:id="@+id/selection_spinner_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/buttonshape"
+        android:entries="@array/choose_year_for_payroll">
+
+    </Spinner>
+    <TextView
+        android:id="@+id/result_selection_text_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Выберите отчетный месяц">
+
+    </TextView>
+    <Spinner
+        android:id="@+id/selection_spinner_mounth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/buttonshape"
+        android:entries="@array/choose_month_for_payroll">
+
+    </Spinner>
+    <Button
+        android:id="@+id/go_to_resalt_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickGoToResultOne"
+        android:background="@drawable/buttonshape"
+        android:layout_margin="15dp"
+        android:text="Перейти к ведомости">
+
+    </Button>
+
+</LinearLayout>

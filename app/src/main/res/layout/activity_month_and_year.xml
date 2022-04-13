@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundAll"
+    tools:context=".MonthAndYearActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/enter_month"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="@string/enter_month" >
+    </TextView>
+         <Spinner
+             android:id="@+id/choose_month"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:entries="@array/choose_month_for_payroll"
+             android:background="@drawable/buttonshape"
+             android:layout_margin="15dp">
+         </Spinner>
+
+    <TextView
+        android:id="@+id/enter_year"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="@string/enter_year" >
+    </TextView>
+        <Spinner
+            android:id="@+id/choose_year"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:entries="@array/choose_year_for_payroll"
+            android:background="@drawable/buttonshape"
+            android:layout_margin="15dp">
+        </Spinner>
+
+
+        <TextView
+            android:id="@+id/enter_days_text1"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:hint="@string/enter_days_text1" >
+        </TextView>
+        <TextView
+            android:id="@+id/enter_days_text2"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:hint="@string/enter_days_text2" >
+        </TextView>
+        <TextView
+            android:id="@+id/enter_days_text3"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:hint="@string/enter_days_text3" >
+        </TextView>
+        <TextView
+            android:id="@+id/enter_days"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="@string/enter_days" >
+        </TextView>
+        <Spinner
+            android:id="@+id/choose_days"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:background="@drawable/buttonshape"
+            android:entries="@array/choose_days_for_payroll">
+        </Spinner>
+
+        <Button
+            android:id="@+id/go_to_employee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:onClick="onClickGoToEmployee"
+            android:background="@drawable/buttonshape"
+            android:text="@string/go_to_employee" >
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>

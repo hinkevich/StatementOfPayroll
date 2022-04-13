@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">StatementOfPayroll</string>
+    <string name="enter_name_of_company">Название организации</string>
+    <string name="transitionFirst">Далее</string>
+    <string name="enter_surname_director">Фамилия, инициалы директора</string>
+    <string name="enter_surname_chief_accountant">Фамилия, инициалы главного бухгалтера</string>
+    <string name="title_activity_company">CompanyActivity</string>
+    <string name="calculate">Рассчитать заработную плату</string>
+    <string name="enter_employee">Добавить сотрудника</string>
+    <string name="create_new_company">Создать новую компанию</string>
+    <string name="choose_the_company">Выберите компанию:</string>
+    <string name="back">Назад</string>
+    <string name="create_company">Создать компанию</string>
+    <string name="name_of_employee">Введите ФИО сотрудника</string>
+    <string name="position_of_employee">Введите должность сотрудника</string>
+    <string name="salary_staff_list">Должностной оклад</string>
+    <string name="full_time">Основное место работы</string>
+    <string name="passport_number">Серия и номер паспорта</string>
+    <string name="employment_date">Дата приема</string>
+    <string name="save_employee">Сохранить сотрудника</string>
+    <string name="enter_month">Выберите месяц:</string>
+    <string name="enter_year">Выберите год:</string>
+    <string name="enter_days">Выберите количество рабочих дней в месяце:</string>
+    <string name="go_to_employee">Перейти к списку сотрудников</string>
+    <string name="choose_employee_text">Выберите сотрудника из списка для добавления в ведомость:</string>
+    <string name="choose_children_text">Выберите один из вариантов:</string>
+    <string name="fill_fulfilled_days">Количество отработанных дней</string>
+    <string name="fill_bonus">Премия</string>
+    <string name="fill_vacation_pay">Отпускные</string>
+    <string name="fill_sick_list">Больничный лист</string>
+    <string name="add_employee_to_payroll">Добавить сотрудника в ведомость</string>
+    <string name="back_to_employee">назад</string>
+    <string name="back_to_variant_of_calculation">Назад</string>
+    <string name="back_to_month_and_year">Назад</string>
+    <string name="enter_days_text1">1.Февраль, март, май, июнь, ноябрь - 20раб.дн.</string>
+    <string name="enter_days_text2">2.Январь, сентябрь, декабрь - 21раб.дн.</string>
+    <string name="enter_days_text3">3.Апрель, июль, август, октябрь - 22раб.дн.</string>
+    <string name="go_to_result">Перейти к ведомости</string>
+    <string name="enter_children">Выберите количество детей:</string>
+    <string name="choose_company_text">Выберите компанию из списка:</string>
+    <string name="back_to_instruction">Перейти к инструкции по расчету должностного оклада</string>
+    <string name="go_to_instruction">Перейти к инструкции по работе с программой</string>
+    <string-array name="choose_month_for_payroll">
+        <item>Январь</item>
+        <item>Февраль</item>
+        <item>Апрель</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Ноябрь</item>
+        <item>Декабрь</item>
+    </string-array>
+    <string-array name="choose_year_for_payroll">
+        <item>2019</item>
+    </string-array>
+    <string-array name="choose_days_for_payroll">
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+    </string-array>
+    <string-array name="enter_children_spinner">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    </string-array>
+
+</resources>

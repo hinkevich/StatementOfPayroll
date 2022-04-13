@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundAll"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <Button
+        android:id="@+id/create_new_company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:onClick="onSendCompany"
+        android:background="@drawable/buttonshape"
+        android:text="@string/create_new_company">
+    </Button>
+    <TextView
+        android:id="@+id/choose_company_text"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:hint="@string/choose_company_text" >
+    </TextView>
+    <Spinner
+        android:id="@+id/choose_the_company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/choose_the_company"
+        android:layout_margin="25dp"
+        android:background="@drawable/buttonshape"
+        android:orientation="vertical" />
+
+    <Button
+        android:id="@+id/transitionFirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/transitionFirst"
+        android:onClick="onSendVariantOfCalculation"
+        android:background="@drawable/buttonshape"
+        android:layout_margin="25dp"/>
+
+        <Button
+            android:id="@+id/go_to_instruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/go_to_instruction"
+            android:background="@drawable/buttonshape"
+            android:layout_margin="25dp"/>
+
+    </LinearLayout>
+</LinearLayout>
+

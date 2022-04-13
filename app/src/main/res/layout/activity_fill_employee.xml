@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundAll"
+    tools:context=".FillEmployeeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/fill_name_of_employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp">
+        </TextView>
+
+     <TextView
+         android:id="@+id/fill_position_of_employee"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="7dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/fill_fulfilled_days"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:hint="@string/fill_fulfilled_days" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/fill_bonus"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:hint="@string/fill_bonus" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/fill_vacation_pay"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:hint="@string/fill_vacation_pay" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/fill_sick_list"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:hint="@string/fill_sick_list" >
+        </EditText>
+
+        <Button
+            android:id="@+id/add_employee_to_payroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:onClick="onAddEmployeeToPayroll"
+            android:background="@drawable/buttonshape"
+            android:text="@string/add_employee_to_payroll" >
+        </Button>
+
+        <Button
+            android:id="@+id/back_to_employee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:onClick="onBackToEmployee"
+            android:background="@drawable/buttonshape"
+            android:text="@string/back_to_employee" >
+        </Button>
+
+</LinearLayout>
+
+</LinearLayout>

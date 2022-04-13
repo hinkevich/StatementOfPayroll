@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundAll"
+    android:orientation="vertical"
+    tools:context=".ResultDisplayActivity">
+    <TextView
+        android:id="@+id/name_of_payroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:hint="Ведомость расчета заработной платы:">
+
+    </TextView>
+
+    <ScrollView
+
+        android:id="@+id/scroll_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+        android:id="@+id/table_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        </TableLayout>
+
+        </HorizontalScrollView>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/text_transferred_to_the_budget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:hint="Подлежит перечислению в бюджет:">
+
+    </TextView>
+
+
+
+</LinearLayout>

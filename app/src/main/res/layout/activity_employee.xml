@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundAll"
+    tools:context=".EmployeeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name_of_employee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/name_of_employee" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/position_of_employee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/position_of_employee" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/salary_staff_list"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/salary_staff_list" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/passport_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/passport_number" >
+        </EditText>
+
+    <CheckBox
+        android:id="@+id/full_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/colorBackgroundAll"
+        android:hint="@string/full_time" >
+    </CheckBox>
+        <TextView
+            android:id="@+id/enter_children"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/enter_children" >
+        </TextView>
+        <Spinner
+            android:id="@+id/choose_children_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/buttonshape"
+            android:entries="@array/enter_children_spinner">
+
+        </Spinner>
+
+        <Button
+            android:id="@+id/save_employee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:onClick="onClickAddEmployee"
+            android:background="@drawable/buttonshape"
+            android:text="@string/save_employee" >
+        </Button>
+
+        <Button
+            android:id="@+id/back_to_variant_of_calculation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:onClick="onBackToVariantOfCalculation"
+            android:background="@drawable/buttonshape"
+            android:text="@string/back_to_variant_of_calculation" >
+        </Button>
+        <Button
+            android:id="@+id/back_to_instruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/buttonshape"
+            android:text="@string/back_to_instruction" >
+        </Button>
+
+    </LinearLayout>
+    </LinearLayout>
+
